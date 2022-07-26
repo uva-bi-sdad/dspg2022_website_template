@@ -1,5 +1,5 @@
 name: "dspg22ari-website"
-output_dir: "../../docs"
+output_dir: "../../html_files"
 exclude: ["*.nb.html", "*.csv", "*.CSV", "*.dcf", "parlog", "old", "dashboard"]
 output:
   html_document:

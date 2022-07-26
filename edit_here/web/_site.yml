@@ -1,33 +1,3 @@
-name: "dspg22ari-website"
-output_dir: "../../html_files"
-exclude: ["*.nb.html", "*.csv", "*.CSV", "*.dcf", "parlog", "old", "dashboard"]
-output:
-  html_document:
-    theme: default
-    toc: true
-    toc_float: true
-    css: style.css
-navbar:
-  title: "Soldier Characteristics that Contribute to Unit Performance"
-  left:
-    - text: "Overview"
-      href: index.html
-    - text: "Data"
-      href: data.html
-    - text: "Methods"
-      href: methods.html
-    - text: "Findings"
-      menu:
-        - text: Overview
-          href: findings-overview.html
-        - text: Qualitative Analysis
-          href: qualitative-analysis.html
-        - text: Natural Language Processing
-          href: nlp.html
-    - text: "Team"
-      href: team.html
-    - text: ""
-      icon: fa-github
-      href: "https://uva-bi-sdad.github.io/dspg2022_website_template/"
+
 
 
